@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	*{
+		box-sizing:border-box;
+		padding:0;
+		margin:0;
+	}
+	fieldset{
+		width: 40%;
+		height: 30rem;
+	}
+	.wrapper{
+		width:50%;
+		float:left;
+	}
+	.container1{
+		width:30%;
+		height:50rem;
+		float:left;
+	
+    }
+	.container2{
+		width:60%
+		height:50rem;
+		float:left;
+	}
+</style>
+	<title></title>
+</head>
+<body>
+<fieldset>
+<legend>Application form</legend>
+<div class="container1">
+    Full name:
+	<br><br>
+	Email:
+	<br><br>
+	Gender:
+	<br><br>
+	Nationality:
+	<br><br>
+	Skills:
+	<br><br>
+	Post applying for:
+	<br><br>
+	Upload resume:
+	<br><br>
+	Paste your resume:
+	<br><br>
+	 
+</div>
+<div class="container2">
+        <form>
+		  
+		  <input type="text" name="Full name" value="Enter full name">
+		  <br><br>
+		  
+		  <input type="text" name="Email" value="Enter email">
+		  <br><br>
+		  
+		  <input type="radio" name="gender" value="male" checked> Male
+		  <input type="radio" name="gender" value="female"> Female<br><br>
+		  
+		  <select>
+				<option value="Indian">Indian</option>
+				<option value="Canadian">American</option>
+				<option value="American">American</option>
+				<option value="Italian">Italian</option>
+		  </select>
+		  <br><br>
+		  
+		 <input type="checkbox" name="Skill1" value="jquery">jquery
+         <input type="checkbox" name="skill2" value="Asp Net" checked>Asp Net
+         <input type="checkbox" name="Skill3" value="MVC">MVC
+         <input type="checkbox" name="skill4" value="Sql Server">Sql Server<br><br>
+         
+          <input type="radio" name="post" value="Trainee"> Trainee
+          <input type="radio" name="post" value="Software Engineer" checked> Software Engineer
+          <input type="radio" name="post" value="Team Leader"> Team Leader
+          <input type="radio" name="post" value="Project manager"> Project manager
+          <br><br>
+          <input type="file" name="myfile">
+          <br><br>
+          <textarea name="message" rows="5" cols="30">Sample resume text...</textarea><br><br>
+          <input type="checkbox" name="note" value="Notify me the status via Email" checked>Notify me the status via Email
+          <br><br>
+          <input type="radio" name="note" value="I agree to terms & conditions" checked>I agree to terms & conditions
+          <br><br>
+		  <input type="submit" value="Submit">
+		  </fieldset>
+		</form>
+		</div>
+</body>
+</html>
