@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:lightgrey;
+}
+
+li a {
+  display: block;
+  color:black;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+li a.active{
+  background-color:green;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color:black;
+  color: white;
+}
+</style>
+	<title></title>
+</head>
+<body>
+    <ul>
+       <li><a class="active" href="default.asp" >Home</a></li>
+       <li><a href="news.asp">News</a></li>
+       <li><a href="contact.asp">Contact</a></li>
+       <li><a href="about.asp">About</a></li>
+    </ul>
+</body>
+</html>
